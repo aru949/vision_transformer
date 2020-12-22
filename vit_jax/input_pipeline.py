@@ -51,6 +51,13 @@ DATASET_PRESETS = {
         'crop': 384,
         'total_steps': 20_000,
     },
+    'faceforensics': {
+        'train': 'train[:95%]',
+        'test': 'validation',
+        'resize': 512,
+        'crop': 384,
+        'total_steps': 10_000,
+    }
 }
 
 
